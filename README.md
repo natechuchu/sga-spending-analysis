@@ -1,4 +1,4 @@
-# SGA Spending Analysis 🎯
+# SGA Spending Analysis 
 An analysis of the Liberty Student Government Association's spending over the past five years.
 
 ## 📌 Table of Contents
