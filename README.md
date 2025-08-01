@@ -1,53 +1,35 @@
 # SGA Spending Analysis 🎯
-A data analysis of the Liberty Student Government Association's spending over the past five years.
+An analysis of the Liberty Student Government Association's spending over the past five years.
 
 ## 📌 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Setup Instructions](#setup-instructions)
-- [Screenshots / GIFs](#screenshots--gifs)
-- [Future Improvements](#future-improvements)
-- [Contact](#contact)
+- [Data Cleaning](#data-cleaning)
+- [Data Visualization](#data-visualization)
+- [Outcomes](#outcomes)
+
 
 ## 🧠 Overview
-Liberty's Student Government Association Treasury Department is in charge of funding for over 100 clubs across campus. Every fiscal year, data regarding purchases and allocations is collected and stored in sepearte excel sheets. However, prior to this project, the treasury deparment had never compiled all the data into one single report, as there weren't unified standards across different administrations as to how the data should be collected and stored. Because of this, the department reached out to me and tasked me with cleaning all the data from the past 5 years and extracting insights for future budget allocations.
+The Liberty Student Government Association's Treasury Department is responsible for funding 100+ student organizations. Despite having data spanning five fiscal years, no unified report had ever been compiled due to inconsistent record-keeping across changing administrations.
 
-## 🚀 Features
-- Real-time hand tracking with MediaPipe
-- Custom-trained gesture classifier
-- Virtual music playback using Pygame
-- Multi-octave support via left hand position
+I was brought on to:
+- Clean and standardize historical data
+- Uncover trends in spending
+- Build an interactive dashboard for future planning
 
-## 🛠 Tech Stack
-- Python
-- OpenCV
-- MediaPipe
-- TensorFlow / PyTorch
-- Pygame
-- Jupyter Notebooks (for training)
+## 🧹 Data Cleaning
+- Standardized club names by merging variations (e.g., “AAA,” “Asian American Assoc,” “Asian American Association”) under single IDs
+- Cleaned inconsistent date, time, and currency formats
+- Fixed broken Excel equations and improved accuracy
+  
+## 📈 Data Visualization
+- Visualized data with Power BI in 18 different charts/diagrams
+- Crafted DAX equations to uncover further insights
 
-## 🖥 Demo
-You can embed:
-- YouTube video link
-- GIF demo (record with LICEcap or ScreenToGif)
+## 🎊 Outcomes
+- Discovered patterns in club spending, allowing the Treasury to allocate more money during weeks of higher cash flow
+- Uncovered which years the highest percentage of clubs received fulfilled budget requests, solidifying which budget allocation processes were most effective
+- Determined underutilized club budgets, improving future budget allocation decisions
+- Gained real-world experience working with messy data sets 
+- Learned how to visualize data and extract valuable insights.
 
-## 🧪 Setup Instructions
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/project-name.git
-cd project-name
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-python main.py
-
-## What I learned
